@@ -1,0 +1,25 @@
+header {  
+    color: white;
+    position: relative;
+    grid-area: header;
+    background-color: aqua;
+    width: auto;
+  }
+
+.menu { 
+    top: 16px;
+    left: 776px;
+    color: white;
+    display: flex;
+    font-family: "Orbitron";
+    position: absolute;
+    gap: 20px;
+  }
+ 
+.logo {
+  position: absolute;
+  width: 181px;
+  height: 90px;
+  left: 60px;
+  top: 24px;
+ }

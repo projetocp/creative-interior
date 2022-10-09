@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ul {
+    list-style: none ;
+    }
+   
+img { 
+    max-width: 100%;
+    display: block;
+    }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+  height: 4123px;
+  display: grid;
+  grid-template-areas:  
+  "header"
+  "comodos"
+  "conceitos"
+  "sobre"
+  "footer";
+  grid-template-rows: 620px 1fr 1fr 1fr 100px;
+  }
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+.comodos {
+    grid-area: comodos;
+    background-color: black;
+  }
+  
+ .conceitos {
+    grid-area: conceitos;
+    background-color: brown;
+  }
+  
+.sobre {
+    grid-area: sobre;
+    background-color: blueviolet;
+  }
+  
+footer{ 
+    background-color: beige;
+    grid-area: footer;
+  }
