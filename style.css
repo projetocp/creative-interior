@@ -1,5 +1,43 @@
-// Arquivo que determina os estilos das estruturas do HTML.
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.vermelho {
-  color: red;
+.container {
+  max-width: 1440px;
+  height: 4123px;
+  display: grid;
+  grid-template-areas:
+ "header"
+ "comodos"
+ "conceitos"
+ "sobre"
+ "footer";
+ grid-template-rows: 100px 1fr 1fr 1fr 100px;
+}
+
+header {
+  grid-area: header;
+  background-color: aqua;
+}
+
+.comodos {
+  grid-area: comodos;
+  background-color: black;
+}
+
+.conceitos {
+  grid-area: conceitos;
+  background-color: brown;
+}
+
+.sobre {
+  grid-area: sobre;
+  background-color: blueviolet;
+}
+
+footer{ 
+  background-color: beige;
+  grid-area: footer;
 }
