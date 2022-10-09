@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
+
+
+
 .container {
+  margin: 0 auto;
   max-width: 1440px;
   height: 4123px;
   display: grid;
@@ -14,12 +18,13 @@
  "conceitos"
  "sobre"
  "footer";
- grid-template-rows: 100px 1fr 1fr 1fr 100px;
+ grid-template-rows: 620px 1fr 1fr 1fr 100px;
 }
 
 header {
   grid-area: header;
   background-color: aqua;
+  width: auto;
 }
 
 .comodos {
