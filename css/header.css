@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  z-index: -999;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.menu .logo {
+  padding-top: 40px;
+}
+
+.menu .menu-list {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem; /*1rem = 16px por padrão*/
+  backdrop-filter: blur(4px);
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 24px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.menu .menu-list a {
+  padding: 10px;
+  /* background-color: black; */
+}
