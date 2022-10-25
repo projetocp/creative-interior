@@ -2,6 +2,12 @@ header {
   position: relative;
   font-family: "Orbitron", sans-serif;
   color: white;
+  background-image: url("../assets/bg-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  display: grid;
 }
 
 .bg {
@@ -35,4 +41,33 @@ header {
 .menu .menu-list a {
   padding: 10px;
   /* background-color: black; */
+}
+
+.veja-mais {
+  display: flex;
+  font-size: 24px;
+  padding: 1rem 2.4rem;
+  background-color: #121212;
+  max-width: fit-content;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -30px;
+  justify-self: center;
+  gap: 8px;
+}
+
+.veja-mais:hover img {
+  animation: 1.5s seta infinite;
+}
+
+@keyframes seta {
+  0% {
+    transform: translate3d(0, -4px, 0);
+  }
+  50% {
+    transform: translate3d(0, 4px, 0);
+  }
+  100% {
+    transform: translate3d(0, -4px, 0);
+  }
 }
